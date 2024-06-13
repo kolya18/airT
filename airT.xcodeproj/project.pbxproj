@@ -7,18 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1278FB2C080B7F00C67904 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1278FA2C080B7F00C67904 /* PlaceholderView.swift */; };
+		1D1278FD2C080DD600C67904 /* HolidayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1278FC2C080DD600C67904 /* HolidayView.swift */; };
+		1D1278FF2C080EC700C67904 /* HotTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1278FE2C080EC700C67904 /* HotTicketView.swift */; };
+		1D1279012C08B2A600C67904 /* CountrySelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1279002C08B2A600C67904 /* CountrySelectedView.swift */; };
+		1D1279252C09205900C67904 /* AllTicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1279242C09205900C67904 /* AllTicketsView.swift */; };
+		1D1279292C09FDCC00C67904 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1279282C09FDCC00C67904 /* Ticket.swift */; };
+		1D12792B2C09FDE800C67904 /* TicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12792A2C09FDE800C67904 /* TicketResponse.swift */; };
+		1D12792D2C09FE0A00C67904 /* TicketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12792C2C09FE0A00C67904 /* TicketService.swift */; };
+		1D1279332C0A378000C67904 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1279322C0A378000C67904 /* Card.swift */; };
+		1D1279352C0A37C900C67904 /* AllTicketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1279342C0A37C900C67904 /* AllTicketsViewModel.swift */; };
+		1D1279372C0A37E900C67904 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1279362C0A37E900C67904 /* CardView.swift */; };
 		1DE3C1912C07747500591FAD /* airTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1902C07747500591FAD /* airTApp.swift */; };
 		1DE3C1932C07747500591FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1922C07747500591FAD /* ContentView.swift */; };
 		1DE3C1952C07747900591FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE3C1942C07747900591FAD /* Assets.xcassets */; };
 		1DE3C1982C07747900591FAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE3C1972C07747900591FAD /* Preview Assets.xcassets */; };
+		1DE3C1A72C07771D00591FAD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1A62C07771D00591FAD /* AppCoordinator.swift */; };
+		1DE3C1AF2C077CB600591FAD /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1AE2C077CB600591FAD /* MainViewModel.swift */; };
+		1DE3C1B12C077CDE00591FAD /* HotelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1B02C077CDE00591FAD /* HotelsViewModel.swift */; };
+		1DE3C1B32C077D0000591FAD /* ShortcutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1B22C077D0000591FAD /* ShortcutsViewModel.swift */; };
+		1DE3C1B52C077D1C00591FAD /* SubscriptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1B42C077D1C00591FAD /* SubscriptionsViewModel.swift */; };
+		1DE3C1B72C077D3500591FAD /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1B62C077D3500591FAD /* ProfileViewModel.swift */; };
+		1DE3C1B92C077D5100591FAD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1B82C077D5100591FAD /* MainView.swift */; };
+		1DE3C1BB2C077D8600591FAD /* HotelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1BA2C077D8600591FAD /* HotelsView.swift */; };
+		1DE3C1BD2C077DAF00591FAD /* ShortcutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1BC2C077DAF00591FAD /* ShortcutsView.swift */; };
+		1DE3C1BF2C077DCF00591FAD /* SubscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1BE2C077DCF00591FAD /* SubscriptionsView.swift */; };
+		1DE3C1C12C077DF500591FAD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1C02C077DF500591FAD /* ProfileView.swift */; };
+		1DE3C1C32C078C3200591FAD /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1C22C078C3200591FAD /* Offer.swift */; };
+		1DE3C1C52C078C9E00591FAD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3C1C42C078C9E00591FAD /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D1278FA2C080B7F00C67904 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		1D1278FC2C080DD600C67904 /* HolidayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayView.swift; sourceTree = "<group>"; };
+		1D1278FE2C080EC700C67904 /* HotTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotTicketView.swift; sourceTree = "<group>"; };
+		1D1279002C08B2A600C67904 /* CountrySelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectedView.swift; sourceTree = "<group>"; };
+		1D1279242C09205900C67904 /* AllTicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTicketsView.swift; sourceTree = "<group>"; };
+		1D1279282C09FDCC00C67904 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		1D12792A2C09FDE800C67904 /* TicketResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketResponse.swift; sourceTree = "<group>"; };
+		1D12792C2C09FE0A00C67904 /* TicketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketService.swift; sourceTree = "<group>"; };
+		1D1279322C0A378000C67904 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1D1279342C0A37C900C67904 /* AllTicketsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTicketsViewModel.swift; sourceTree = "<group>"; };
+		1D1279362C0A37E900C67904 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		1DE3C18D2C07747500591FAD /* airT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE3C1902C07747500591FAD /* airTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airTApp.swift; sourceTree = "<group>"; };
 		1DE3C1922C07747500591FAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DE3C1942C07747900591FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DE3C1972C07747900591FAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DE3C1A62C07771D00591FAD /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		1DE3C1AE2C077CB600591FAD /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		1DE3C1B02C077CDE00591FAD /* HotelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsViewModel.swift; sourceTree = "<group>"; };
+		1DE3C1B22C077D0000591FAD /* ShortcutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsViewModel.swift; sourceTree = "<group>"; };
+		1DE3C1B42C077D1C00591FAD /* SubscriptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsViewModel.swift; sourceTree = "<group>"; };
+		1DE3C1B62C077D3500591FAD /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		1DE3C1B82C077D5100591FAD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1DE3C1BA2C077D8600591FAD /* HotelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsView.swift; sourceTree = "<group>"; };
+		1DE3C1BC2C077DAF00591FAD /* ShortcutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsView.swift; sourceTree = "<group>"; };
+		1DE3C1BE2C077DCF00591FAD /* SubscriptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsView.swift; sourceTree = "<group>"; };
+		1DE3C1C02C077DF500591FAD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1DE3C1C22C078C3200591FAD /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		1DE3C1C42C078C9E00591FAD /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +99,10 @@
 		1DE3C18F2C07747500591FAD /* airT */ = {
 			isa = PBXGroup;
 			children = (
+				1DE3C19E2C07762500591FAD /* Models */,
+				1DE3C1A12C07769000591FAD /* Views */,
+				1DE3C1A22C0776A800591FAD /* ViewModels */,
+				1DE3C1A32C0776B900591FAD /* Coordinators */,
 				1DE3C1902C07747500591FAD /* airTApp.swift */,
 				1DE3C1922C07747500591FAD /* ContentView.swift */,
 				1DE3C1942C07747900591FAD /* Assets.xcassets */,
@@ -65,6 +117,58 @@
 				1DE3C1972C07747900591FAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DE3C19E2C07762500591FAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DE3C1C22C078C3200591FAD /* Offer.swift */,
+				1DE3C1C42C078C9E00591FAD /* APIService.swift */,
+				1D1279282C09FDCC00C67904 /* Ticket.swift */,
+				1D12792A2C09FDE800C67904 /* TicketResponse.swift */,
+				1D12792C2C09FE0A00C67904 /* TicketService.swift */,
+				1D1279322C0A378000C67904 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DE3C1A12C07769000591FAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DE3C1B82C077D5100591FAD /* MainView.swift */,
+				1DE3C1BA2C077D8600591FAD /* HotelsView.swift */,
+				1DE3C1BC2C077DAF00591FAD /* ShortcutsView.swift */,
+				1DE3C1BE2C077DCF00591FAD /* SubscriptionsView.swift */,
+				1DE3C1C02C077DF500591FAD /* ProfileView.swift */,
+				1D1278FA2C080B7F00C67904 /* PlaceholderView.swift */,
+				1D1278FC2C080DD600C67904 /* HolidayView.swift */,
+				1D1278FE2C080EC700C67904 /* HotTicketView.swift */,
+				1D1279002C08B2A600C67904 /* CountrySelectedView.swift */,
+				1D1279242C09205900C67904 /* AllTicketsView.swift */,
+				1D1279362C0A37E900C67904 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DE3C1A22C0776A800591FAD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1DE3C1AE2C077CB600591FAD /* MainViewModel.swift */,
+				1DE3C1B02C077CDE00591FAD /* HotelsViewModel.swift */,
+				1DE3C1B22C077D0000591FAD /* ShortcutsViewModel.swift */,
+				1DE3C1B42C077D1C00591FAD /* SubscriptionsViewModel.swift */,
+				1DE3C1B62C077D3500591FAD /* ProfileViewModel.swift */,
+				1D1279342C0A37C900C67904 /* AllTicketsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1DE3C1A32C0776B900591FAD /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				1DE3C1A62C07771D00591FAD /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +241,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE3C1C32C078C3200591FAD /* Offer.swift in Sources */,
+				1DE3C1C52C078C9E00591FAD /* APIService.swift in Sources */,
+				1DE3C1B52C077D1C00591FAD /* SubscriptionsViewModel.swift in Sources */,
+				1DE3C1C12C077DF500591FAD /* ProfileView.swift in Sources */,
+				1D1278FD2C080DD600C67904 /* HolidayView.swift in Sources */,
+				1DE3C1B92C077D5100591FAD /* MainView.swift in Sources */,
+				1D1279252C09205900C67904 /* AllTicketsView.swift in Sources */,
+				1D1279332C0A378000C67904 /* Card.swift in Sources */,
+				1DE3C1BD2C077DAF00591FAD /* ShortcutsView.swift in Sources */,
+				1DE3C1B12C077CDE00591FAD /* HotelsViewModel.swift in Sources */,
+				1D1279352C0A37C900C67904 /* AllTicketsViewModel.swift in Sources */,
+				1D1279012C08B2A600C67904 /* CountrySelectedView.swift in Sources */,
+				1DE3C1BB2C077D8600591FAD /* HotelsView.swift in Sources */,
 				1DE3C1932C07747500591FAD /* ContentView.swift in Sources */,
+				1D12792B2C09FDE800C67904 /* TicketResponse.swift in Sources */,
+				1D1278FF2C080EC700C67904 /* HotTicketView.swift in Sources */,
+				1DE3C1A72C07771D00591FAD /* AppCoordinator.swift in Sources */,
+				1D12792D2C09FE0A00C67904 /* TicketService.swift in Sources */,
 				1DE3C1912C07747500591FAD /* airTApp.swift in Sources */,
+				1DE3C1B32C077D0000591FAD /* ShortcutsViewModel.swift in Sources */,
+				1D1279372C0A37E900C67904 /* CardView.swift in Sources */,
+				1DE3C1BF2C077DCF00591FAD /* SubscriptionsView.swift in Sources */,
+				1DE3C1B72C077D3500591FAD /* ProfileViewModel.swift in Sources */,
+				1D1278FB2C080B7F00C67904 /* PlaceholderView.swift in Sources */,
+				1D1279292C09FDCC00C67904 /* Ticket.swift in Sources */,
+				1DE3C1AF2C077CB600591FAD /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

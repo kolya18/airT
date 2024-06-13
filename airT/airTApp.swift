@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct airTApp: App {
+    @StateObject private var coordinator = AppCoordinator()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(coordinator: coordinator).preferredColorScheme(.dark)
         }
     }
 }
